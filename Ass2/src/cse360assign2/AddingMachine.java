@@ -42,7 +42,7 @@ public class AddingMachine {
 	*/
 	public void add (int value) {
 	total = total + value;
-	history += "+";
+	history += " + ";
 	history += Integer.toString(value);
 	}
 	
@@ -68,4 +68,6 @@ public class AddingMachine {
 	public void clear() {
 	
 	}
+	
+	
 }
