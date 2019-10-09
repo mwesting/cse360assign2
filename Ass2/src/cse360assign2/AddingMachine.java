@@ -64,9 +64,13 @@ public class AddingMachine {
 	public String toString () {
 	return history;
 	}
-
-	public void clear() {
 	
+	/**
+	 * Resets the total and history variables back to the initial values. 
+	 */
+	public void clear() {
+	total=0;
+	history="0";
 	}
 	
 	
